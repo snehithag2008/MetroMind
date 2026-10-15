@@ -1,42 +1,35 @@
-METROMIND - Intelligent Public Transport Platform
-=================================================
+# MetroMind – Intelligent Public Transport Platform
 
-This is a Java console prototype for a DSA project. It uses clearly labelled sample/demo data;
-it is not connected to a live transport agency or real passenger database.
+## Project Overview
+MetroMind is a Java-based educational project that demonstrates advanced Data Structures and Algorithms through public transport-related examples.
 
-ECLIPSE SETUP
-1. Extract MetroMind_Full_Project.zip.
-2. In Eclipse: File > New > Java Project > MetroMind.
-3. If Eclipse creates module-info.java, you may delete it for this simple classpath project.
-4. Copy the extracted `src/metromind` folder into the project's `src` folder.
-5. Ensure package names match folder names.
-6. Open metromind.Main and choose Run As > Java Application.
+## Problem Statement
+The project demonstrates techniques for efficient station-name searching, text processing, operation-cost optimization, network-flow analysis, and computational problem-solving using sample transport data.
 
-FEATURES
-M1 / CO1: KMP station/alert search, Z-function prefix analysis, Rabin-Karp code search,
-          Aho-Corasick multiple alert detection.
-M2 / CO2: Suffix array using prefix-doubling, Kasai LCP, substring search using suffix array,
-          suffix automaton substring search. SA-IS is explained in the report as a future
-          replacement/extension; this project does NOT falsely label the doubling algorithm SA-IS.
-M3 / CO3: Levenshtein and Damerau-Levenshtein spelling correction, bitmask DP for a small
-          destination tour, matrix-chain multiplication cost, optimal BST expected search cost.
-M4 / CO4: Dinic maximum flow for passenger-capacity network; bipartite matching for vehicle
-          to service assignment; min-cut reachable side after max flow.
-M5 / CO5: small-instance 3-SAT brute-force demonstration, 3-SAT clause-to-clique compatibility
-          graph demo, conflict graph vertex-cover 2-approximation.
-M6 / CO6: randomized quicksort, reservoir sampling, Miller-Rabin primality test,
-          parallel reduction using Java parallel streams, simple Brent-style work/span estimate.
+## Technologies Used
+- Java
+- Eclipse IDE
+- Git and GitHub
 
-IMPORTANT ALGORITHM NOTES
-- Data is illustrative and uses fictional/sample station records.
-- Bitmask DP is exponential, so the menu uses only four destinations.
-- 3-SAT brute force is intended only for small teaching examples.
-- The prefix-doubling suffix-array implementation is O(n log^2 n) with comparison sorting.
-  It is not SA-IS. SA-IS can be added as a separate implementation if your faculty explicitly
-  requires a working linear-time SA-IS implementation.
-- The transport route-tour demo assumes supplied pairwise costs; it is not a live route planner.
+## Algorithm Modules
+1. String Algorithms – KMP, Z-Function, Rabin–Karp, Aho–Corasick
+2. Suffix Structures – Suffix Array, LCP and related structures
+3. Dynamic Programming – Edit Distance, Matrix Chain Multiplication, Optimal BST and visit-order optimization
+4. Network Flow – Maximum Flow and Minimum Cut
+5. NP-Completeness and Approximation Algorithms
+6. Randomized and Parallel Algorithms
 
-SEPARATE ALGORITHM CLASSES
-Each algorithm now has its own class file (KMP.java, ZFunction.java, etc.) for the Eclipse structure.
-Some classes are thin entry points that delegate to the shared implementation classes. For course submission,
-be transparent that SAIS, FordFulkerson, and EdmondsKarp are documented entry points, not full implementations.
+## Sample Results
+- Matrix Chain Multiplication minimum cost: 18000
+- Optimal BST weighted search cost: 225
+- Illustrative network maximum flow: 40 capacity units
+
+## How to Run
+1. Import the project into Eclipse as an existing Java project.
+2. Ensure the JDK is configured.
+3. Open `src/metromind/Main.java`.
+4. Run `Main.java` as a Java Application.
+5. Follow the console menu.
+
+## Disclaimer
+Costs, frequencies and network capacities are illustrative teaching values and do not represent real-time public transport data.
