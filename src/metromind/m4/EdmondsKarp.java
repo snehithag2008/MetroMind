@@ -1,0 +1,1 @@
+package metromind.m4; /** Teaching entry point; this project demonstrates max-flow with Dinic. */ public final class EdmondsKarp { private EdmondsKarp() {} public static String description(){ return "Edmonds-Karp is Ford-Fulkerson with BFS augmenting paths; implement separately if required."; } }

@@ -1,0 +1,1 @@
+package metromind.m3; public final class MatrixChain { private MatrixChain() {} public static long minimumMultiplications(int[] dimensions){ return DynamicProgramming.matrixChainMinimumCost(dimensions); } }

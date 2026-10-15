@@ -1,0 +1,1 @@
+package metromind.m2; public final class SuffixArray { private SuffixArray() {} public static int[] build(String text){ return SuffixStructures.suffixArray(text); } public static java.util.List<Integer> search(String text,String pattern){ return SuffixStructures.findWithSuffixArray(text,pattern); } }

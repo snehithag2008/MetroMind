@@ -1,0 +1,1 @@
+package metromind.m3; public final class OptimalBST { private OptimalBST() {} public static long minimumSearchCost(int[] keys,int[] frequencies){ return DynamicProgramming.optimalBstCost(keys,frequencies); } }

@@ -1,0 +1,1 @@
+package metromind.m2; public final class SuffixAutomaton { private SuffixAutomaton() {} public static boolean contains(String text,String pattern){ return SuffixStructures.suffixAutomatonContains(text,pattern); } }

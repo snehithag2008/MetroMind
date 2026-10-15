@@ -1,0 +1,1 @@
+package metromind.m5; public final class IndependentSet { private IndependentSet() {} public static String relationship(){ return "A set is independent exactly when no two selected vertices share an edge."; } }

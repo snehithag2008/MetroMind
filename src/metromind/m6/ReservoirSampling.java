@@ -1,0 +1,1 @@
+package metromind.m6; import java.util.*; public final class ReservoirSampling { private ReservoirSampling() {} public static <T> List<T> sample(Iterable<T> stream,int k,Random random){ return ScaleAlgorithms.reservoirSample(stream,k,random); } }

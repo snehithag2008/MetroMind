@@ -1,0 +1,1 @@
+package metromind.m2; /** Educational substring-query facade; not a compressed suffix-tree implementation. */ public final class SuffixTree { private SuffixTree() {} public static boolean contains(String text,String pattern){ return SuffixStructures.suffixAutomatonContains(text,pattern); } }

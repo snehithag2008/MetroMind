@@ -1,0 +1,1 @@
+package metromind.m5; public final class ThreeSAT { private ThreeSAT() {} public static boolean[] solve(int variables,int[][] clauses){ return ApproximationAlgorithms.solveSmall3Sat(variables,clauses); } }

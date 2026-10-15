@@ -1,0 +1,1 @@
+package metromind.m1; import java.util.List; public final class AhoCorasick { private AhoCorasick() {} public static List<String> search(String text,List<String> patterns){ return StringAlgorithms.ahoCorasick(text,patterns); } }

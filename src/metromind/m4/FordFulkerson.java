@@ -1,0 +1,1 @@
+package metromind.m4; /** Teaching entry point; use Dinic for the actual max-flow implementation in this project. */ public final class FordFulkerson { private FordFulkerson() {} public static String description(){ return "Maximum-flow problem: repeatedly augment flow along residual paths. Demo implementation is in FlowAlgorithms.Dinic."; } }

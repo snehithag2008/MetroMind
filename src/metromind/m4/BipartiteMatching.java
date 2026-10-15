@@ -1,0 +1,1 @@
+package metromind.m4; public final class BipartiteMatching { private BipartiteMatching() {} public static int[] maximumMatching(boolean[][] eligible){ return FlowAlgorithms.maximumBipartiteMatching(eligible); } }

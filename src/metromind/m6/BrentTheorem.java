@@ -1,0 +1,1 @@
+package metromind.m6; public final class BrentTheorem { private BrentTheorem() {} public static double timeUpperBound(double work,double span,double processors){ return ScaleAlgorithms.brentUpperBound(work,span,processors); } }

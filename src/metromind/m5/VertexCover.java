@@ -1,0 +1,1 @@
+package metromind.m5; public final class VertexCover { private VertexCover() {} public static java.util.Set<Integer> approximate(int vertices,int[][] edges){ return ApproximationAlgorithms.vertexCoverTwoApprox(vertices,edges); } }

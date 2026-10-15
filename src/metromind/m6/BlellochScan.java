@@ -1,0 +1,1 @@
+package metromind.m6; public final class BlellochScan { private BlellochScan() {} public static int[] inclusivePrefixSum(int[] values){ int[] out=new int[values.length];int sum=0;for(int i=0;i<values.length;i++){sum+=values[i];out[i]=sum;}return out;} }

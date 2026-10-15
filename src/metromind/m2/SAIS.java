@@ -1,0 +1,1 @@
+package metromind.m2; /** Note: this class currently delegates to prefix-doubling, not a true SA-IS implementation. */ public final class SAIS { private SAIS() {} public static int[] build(String text){ return SuffixStructures.suffixArray(text); } }

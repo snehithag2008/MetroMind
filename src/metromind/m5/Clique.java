@@ -1,0 +1,1 @@
+package metromind.m5; public final class Clique { private Clique() {} public static java.util.List<int[]> compatibilityEdges(int[][] clauses){ return ApproximationAlgorithms.threeSatCompatibilityEdges(clauses); } }
